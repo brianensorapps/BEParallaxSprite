@@ -1,0 +1,843 @@
+TParallaxSprite Demo
+v7
+r0
+t317507981.628903
+cCheck dependencies
+cProcessInfoPlistFile "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/Info.plist" Application-Info.plist
+cCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsback.png" mountainsback.png
+cCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsback@2x.png" mountainsback@2x.png
+cCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsfront.png" mountainsfront.png
+cCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsfront@2x.png" mountainsfront@2x.png
+cCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/sky.png" sky.png
+cCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/sky@2x.png" sky@2x.png
+cCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/ball.png" ball.png
+cCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/ball@2x.png" ball@2x.png
+cCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/grass.png" grass.png
+cCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/grass@2x.png" grass@2x.png
+cProcessPCH /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-dccnfbhwmodwtpdzlzwskcqqwxbw/Application_Prefix.pch.gch Application_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/main.o" /Users/brian/Desktop/Files/Demo/src/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/ApplicationDelegate.o" /Users/brian/Desktop/Files/Demo/src/Classes/ApplicationDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/Game.o" /Users/brian/Desktop/Files/Demo/src/Classes/Game.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/BEParallaxSprite.o" /Users/brian/Desktop/Files/Demo/src/Classes/BEParallaxSprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/Ball.o" /Users/brian/Desktop/Files/Demo/src/Classes/Ball.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo" normal i386
+cGenerateDSYMFile "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app.dSYM" "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo"
+cTouch "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC1226400000000000246A0
+t1287725668
+s149152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC1230E0000000000019D40
+t1287725838
+s105792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Users/brian/Desktop/Files/Demo/src/Application_Prefix.pch
+c000000004D233AC100000000000000D8
+t1294154433
+s216
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"Sparrow.h"
+
+N/Users/brian/Desktop/Files/Demo/src/Classes/ApplicationDelegate.h
+c000000004D233AC10000000000000137
+t1294154433
+s311
+i<UIKit/UIKit.h>
+
+N/Users/brian/Desktop/Files/Demo/src/Classes/ApplicationDelegate.m
+c000000004D3BD5A0000000000000057E
+t1295766944
+s1406
+i"ApplicationDelegate.h"
+i"Game.h"
+
+N/Users/brian/Desktop/Files/Demo/src/Classes/BEParallaxSprite.h
+c000000004D3BCE1000000000000003F3
+t1295765008
+s1011
+i<Foundation/Foundation.h>
+
+N/Users/brian/Desktop/Files/Demo/src/Classes/BEParallaxSprite.m
+c000000004D3BCF030000000000000D5D
+t1295765251
+s3421
+i"BEParallaxSprite.h"
+
+N/Users/brian/Desktop/Files/Demo/src/Classes/Ball.h
+c000000004D3BDAAF000000000000016E
+t1295768239
+s366
+i<Foundation/Foundation.h>
+
+N/Users/brian/Desktop/Files/Demo/src/Classes/Ball.m
+c000000004D3C9227000000000000039A
+t1295815207
+s922
+i"Ball.h"
+
+N/Users/brian/Desktop/Files/Demo/src/Classes/Game.h
+c000000004D3BD6690000000000000142
+t1295767145
+s322
+i<Foundation/Foundation.h>
+i"BEParallaxSprite.h"
+i"Ball.h"
+
+N/Users/brian/Desktop/Files/Demo/src/Classes/Game.m
+c000000004D3C918E0000000000000747
+t1295815054
+s1863
+i"Game.h"
+
+N/Users/brian/Desktop/Files/Demo/src/ball.png
+c000000004D3BCFA30000000000001A32
+t1295765411
+s6706
+
+N/Users/brian/Desktop/Files/Demo/src/ball@2x.png
+c000000004D3BCF8C0000000000009D78
+t1295765388
+s40312
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app
+t1295815181
+s510
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app.dSYM
+t1295815181
+s102
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/Info.plist
+t1295814926
+s715
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo
+t1295815181
+s381480
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/PkgInfo
+t1295814926
+s8
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ball.png
+t1295814926
+s6706
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ball@2x.png
+t1295814926
+s40312
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/grass.png
+t1295814926
+s4872
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/grass@2x.png
+t1295814926
+s15361
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsback.png
+t1295814926
+s24845
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsback@2x.png
+t1295814926
+s2462395
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsfront.png
+t1295814926
+s15940
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsfront@2x.png
+t1295814926
+s2462395
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/sky.png
+t1295814926
+s75242
+
+N/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/sky@2x.png
+t1295814926
+s2462395
+
+N/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/ApplicationDelegate.o
+t1295814927
+s55592
+
+N/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/BEParallaxSprite.o
+t1295814927
+s24576
+
+N/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/Ball.o
+t1295815181
+s13560
+
+N/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/Game.o
+t1295815054
+s14828
+
+N/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/ParallaxSprite Demo.LinkFileList
+c000000004D3C910E00000000000002E6
+t1295814926
+s742
+
+N/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/main.o
+t1295814927
+s6480
+
+N/Users/brian/Desktop/Files/Demo/src/grass.png
+c000000004D3BD43E0000000000001308
+t1295766590
+s4872
+
+N/Users/brian/Desktop/Files/Demo/src/grass@2x.png
+c000000004D3BD44D0000000000003C01
+t1295766605
+s15361
+
+N/Users/brian/Desktop/Files/Demo/src/main.m
+c000000004CBA1C7E000000000000017A
+t1287265406
+s378
+i<UIKit/UIKit.h>
+
+N/Users/brian/Desktop/Files/Demo/src/mountainsback.png
+c000000004D3B72FA000000000000610D
+t1295741690
+s24845
+
+N/Users/brian/Desktop/Files/Demo/src/mountainsback@2x.png
+c000000004D3B725200000000002592BB
+t1295741522
+s2462395
+
+N/Users/brian/Desktop/Files/Demo/src/mountainsfront.png
+c000000004D3B73040000000000003E44
+t1295741700
+s15940
+
+N/Users/brian/Desktop/Files/Demo/src/mountainsfront@2x.png
+c000000004D3B72A000000000002592BB
+t1295741600
+s2462395
+
+N/Users/brian/Desktop/Files/Demo/src/sky.png
+c000000004D3B731200000000000125EA
+t1295741714
+s75242
+
+N/Users/brian/Desktop/Files/Demo/src/sky@2x.png
+c000000004D3B716000000000002592BB
+t1295741280
+s2462395
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPAnimatable.h
+c000000004D28DDAE0000000000000399
+t1294523822
+s921
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPAudioEngine.h
+c000000004D28DDAE0000000000000999
+t1294523822
+s2457
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPBitmapChar.h
+c000000004D28DDAE00000000000006A7
+t1294523822
+s1703
+i<Foundation/Foundation.h>
+i"SPImage.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPBitmapFont.h
+c000000004D28DDAE0000000000000BA0
+t1294523822
+s2976
+i<Foundation/Foundation.h>
+i"SPBitmapChar.h"
+i"SPTextField.h"
+i"SPMacros.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPButton.h
+c000000004D28DDAE0000000000000E1A
+t1294523822
+s3610
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPDelayedInvocation.h
+c000000004D28DDAE00000000000006A1
+t1294523822
+s1697
+i<Foundation/Foundation.h>
+i"SPAnimatable.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPDisplayObject.h
+c000000004D307D770000000000001B02
+t1295023479
+s6914
+i<Foundation/Foundation.h>
+i"SPEventDispatcher.h"
+i"SPRectangle.h"
+i"SPMatrix.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPDisplayObjectContainer.h
+c000000004D28DDAE0000000000000ED6
+t1294523822
+s3798
+i<Foundation/Foundation.h>
+i"SPDisplayObject.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPEnterFrameEvent.h
+c000000004D28DDAE000000000000065E
+t1294523822
+s1630
+i<Foundation/Foundation.h>
+i"SPEvent.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPEvent.h
+c000000004D28DDAE0000000000000B8C
+t1294523822
+s2956
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPEventDispatcher.h
+c000000004D28DDAE0000000000000B7D
+t1294523822
+s2941
+i<Foundation/Foundation.h>
+i"SPEvent.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPGLTexture.h
+c000000004D2B72670000000000000830
+t1294692967
+s2096
+i<Foundation/Foundation.h>
+i"SPTexture.h"
+i"SPMacros.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPImage.h
+c000000004D28DDAE0000000000000827
+t1294523822
+s2087
+i<Foundation/Foundation.h>
+i"SPQuad.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPJuggler.h
+c000000004D28DDAE0000000000000B25
+t1294523822
+s2853
+i<Foundation/Foundation.h>
+i"SPAnimatable.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPMacros.h
+c000000004D232FC40000000000000658
+t1294151620
+s1624
+i<Foundation/Foundation.h>
+i<math.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPMatrix.h
+c000000004D28DDAE0000000000000A79
+t1294523822
+s2681
+i<Foundation/Foundation.h>
+i"SPPoolObject.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPMovieClip.h
+c000000004D28DDAE0000000000001137
+t1294523822
+s4407
+i<Foundation/Foundation.h>
+i"SPSprite.h"
+i"SPTexture.h"
+i"SPAnimatable.h"
+i"SPImage.h"
+i"SPSoundChannel.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPNSExtensions.h
+c000000004D28DDAE00000000000004B6
+t1294523822
+s1206
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPPoint.h
+c000000004D28DDAE00000000000008A3
+t1294523822
+s2211
+i<Foundation/Foundation.h>
+i"SPPoolObject.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPPoolObject.h
+c000000004D28DDAE000000000000083A
+t1294523822
+s2106
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPQuad.h
+c000000004D28DDAE0000000000000A36
+t1294523822
+s2614
+i<Foundation/Foundation.h>
+i"SPDisplayObject.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPRectangle.h
+c000000004D28DDAE000000000000088F
+t1294523822
+s2191
+i<Foundation/Foundation.h>
+i"SPPoolObject.h"
+i"SPPoint.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPRenderSupport.h
+c000000004D28DDAE0000000000000909
+t1294523822
+s2313
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPRenderTexture.h
+c000000004D3348450000000000000CE8
+t1295206469
+s3304
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"SPDisplayObject.h"
+i"SPTexture.h"
+i"SPRenderSupport.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPSound.h
+c000000004D28DDAE00000000000008C4
+t1294523822
+s2244
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPSoundChannel.h
+c000000004D28DDAE00000000000007AB
+t1294523822
+s1963
+i<Foundation/Foundation.h>
+i"SPSound.h"
+i"SPEventDispatcher.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPSprite.h
+c000000004D28DDAE0000000000000501
+t1294523822
+s1281
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPStage.h
+c000000004D28DDAE0000000000000BD4
+t1294523822
+s3028
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPSubTexture.h
+c000000004D28DDAE0000000000000607
+t1294523822
+s1543
+i<Foundation/Foundation.h>
+i"SPTexture.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTextField.h
+c000000004D28DDAE00000000000015A0
+t1294523822
+s5536
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+i"SPMacros.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTexture.h
+c000000004D28DDAE0000000000001383
+t1294523822
+s4995
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTextureAtlas.h
+c000000004D28DDAE0000000000000E8D
+t1294523822
+s3725
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTouch.h
+c000000004D28DDAE0000000000000E8A
+t1294523822
+s3722
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTouchEvent.h
+c000000004D28DDAE0000000000000C22
+t1294523822
+s3106
+i<Foundation/Foundation.h>
+i"SPEvent.h"
+i"SPTouch.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTransitions.h
+c000000004D28DDAE0000000000000ABF
+t1294523822
+s2751
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPTween.h
+c000000004D28DDAE0000000000001064
+t1294523822
+s4196
+i<Foundation/Foundation.h>
+i"SPEventDispatcher.h"
+i"SPAnimatable.h"
+i"SPTransitions.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPUtils.h
+c000000004D28DDAE00000000000002E5
+t1294523822
+s741
+i<Foundation/Foundation.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/SPView.h
+c000000004D28DDAE0000000000000815
+t1294523822
+s2069
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/brian/Documents/sparrow/sparrow/src/Classes/Sparrow.h
+c000000004D2E15650000000000000433
+t1294865765
+s1075
+i"SPNSExtensions.h"
+i"SPEventDispatcher.h"
+i"SPDisplayObject.h"
+i"SPDisplayObjectContainer.h"
+i"SPQuad.h"
+i"SPImage.h"
+i"SPTextField.h"
+i"SPBitmapFont.h"
+i"SPButton.h"
+i"SPStage.h"
+i"SPSprite.h"
+i"SPMovieClip.h"
+i"SPTexture.h"
+i"SPSubTexture.h"
+i"SPRenderTexture.h"
+i"SPGLTexture.h"
+i"SPTextureAtlas.h"
+i"SPEvent.h"
+i"SPTouchEvent.h"
+i"SPEnterFrameEvent.h"
+i"SPJuggler.h"
+i"SPTransitions.h"
+i"SPTween.h"
+i"SPDelayedInvocation.h"
+i"SPRectangle.h"
+i"SPMacros.h"
+i"SPUtils.h"
+i"SPView.h"
+i"SPRenderSupport.h"
+i"SPAudioEngine.h"
+i"SPSound.h"
+i"SPSoundChannel.h"
+
+N/Users/brian/Documents/sparrow/sparrow/src/build/Debug-iphonesimulator/libSparrow.a
+c000000004D3B779C00000000000F9D50
+t1295742876
+s1023312
+
+N/var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-dccnfbhwmodwtpdzlzwskcqqwxbw/Application_Prefix.pch.gch
+t1295814927
+s16839824
+
+NApplication-Info.plist
+c000000004D3BCBF700000000000003F1
+t1295764471
+s1009
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317507981#317507981#0(0"0(0#1#0"8608741056#0"0#
+
+CCompileC "build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/ApplicationDelegate.o" /Users/brian/Desktop/Files/Demo/src/Classes/ApplicationDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317507727.611985
+e317507727.758755
+r1
+xCompileC
+xbuild/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/ApplicationDelegate.o
+x/Users/brian/Desktop/Files/Demo/src/Classes/ApplicationDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/brian/Desktop/Files/Demo/src/Classes/ApplicationDelegate.m317507727#317507727#0(0"0(0#0#65"/Users/brian/Desktop/Files/Demo/src/Classes/ApplicationDelegate.m8606489760#1793"    cd /Users/brian/Desktop/Files/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/ParallaxSprite Demo.hmap" -F/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources/i386" "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources" -include /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-dccnfbhwmodwtpdzlzwskcqqwxbw/Application_Prefix.pch -c /Users/brian/Desktop/Files/Demo/src/Classes/ApplicationDelegate.m -o "/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/ApplicationDelegate.o"0#
+
+CCompileC "build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/BEParallaxSprite.o" /Users/brian/Desktop/Files/Demo/src/Classes/BEParallaxSprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317507727.758856
+e317507727.865431
+r1
+xCompileC
+xbuild/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/BEParallaxSprite.o
+x/Users/brian/Desktop/Files/Demo/src/Classes/BEParallaxSprite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/brian/Desktop/Files/Demo/src/Classes/BEParallaxSprite.m317507727#317507727#0(0"0(0#0#62"/Users/brian/Desktop/Files/Demo/src/Classes/BEParallaxSprite.m8600289984#1787"    cd /Users/brian/Desktop/Files/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/ParallaxSprite Demo.hmap" -F/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources/i386" "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources" -include /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-dccnfbhwmodwtpdzlzwskcqqwxbw/Application_Prefix.pch -c /Users/brian/Desktop/Files/Demo/src/Classes/BEParallaxSprite.m -o "/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/BEParallaxSprite.o"0#
+
+CCompileC "build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/Ball.o" /Users/brian/Desktop/Files/Demo/src/Classes/Ball.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317507981.373357
+e317507981.498884
+r1
+xCompileC
+xbuild/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/Ball.o
+x/Users/brian/Desktop/Files/Demo/src/Classes/Ball.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/brian/Desktop/Files/Demo/src/Classes/Ball.m317507981#317507981#0(0"0(0#0#50"/Users/brian/Desktop/Files/Demo/src/Classes/Ball.m8603905408#1763"    cd /Users/brian/Desktop/Files/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/ParallaxSprite Demo.hmap" -F/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources/i386" "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources" -include /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-dccnfbhwmodwtpdzlzwskcqqwxbw/Application_Prefix.pch -c /Users/brian/Desktop/Files/Demo/src/Classes/Ball.m -o "/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/Ball.o"0#
+
+CCompileC "build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/Game.o" /Users/brian/Desktop/Files/Demo/src/Classes/Game.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317507854.783923
+e317507854.920249
+r1
+xCompileC
+xbuild/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/Game.o
+x/Users/brian/Desktop/Files/Demo/src/Classes/Game.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/brian/Desktop/Files/Demo/src/Classes/Game.m317507854#317507854#0(0"0(0#0#50"/Users/brian/Desktop/Files/Demo/src/Classes/Game.m8606680416#1763"    cd /Users/brian/Desktop/Files/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/ParallaxSprite Demo.hmap" -F/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources/i386" "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources" -include /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-dccnfbhwmodwtpdzlzwskcqqwxbw/Application_Prefix.pch -c /Users/brian/Desktop/Files/Demo/src/Classes/Game.m -o "/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/Game.o"0#
+
+CCompileC "build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/main.o" /Users/brian/Desktop/Files/Demo/src/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317507727.611029
+e317507727.723134
+r1
+xCompileC
+xbuild/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/main.o
+x/Users/brian/Desktop/Files/Demo/src/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/brian/Desktop/Files/Demo/src/main.m317507727#317507727#0(0"0(0#0#42"/Users/brian/Desktop/Files/Demo/src/main.m8608066464#1755"    cd /Users/brian/Desktop/Files/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/ParallaxSprite Demo.hmap" -F/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources/i386" "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources" -include /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-dccnfbhwmodwtpdzlzwskcqqwxbw/Application_Prefix.pch -c /Users/brian/Desktop/Files/Demo/src/main.m -o "/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/main.o"0#
+
+CCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/ball.png" ball.png
+s317507726.144420
+e317507726.191909
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ParallaxSprite Demo.app/ball.png
+xball.png
+lSLF07#2@13"Copy ball.png317507726#317507726#0(0"0(0#0#44"/Users/brian/Desktop/Files/Demo/src/ball.png8605942272#471"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brian/Desktop/Files/Demo/src/ball.png "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/ball@2x.png" ball@2x.png
+s317507726.144972
+e317507726.222936
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ParallaxSprite Demo.app/ball@2x.png
+xball@2x.png
+lSLF07#2@16"Copy ball@2x.png317507726#317507726#0(0"0(0#0#47"/Users/brian/Desktop/Files/Demo/src/ball@2x.png8605853440#474"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brian/Desktop/Files/Demo/src/ball@2x.png "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/grass.png" grass.png
+s317507726.145532
+e317507726.210686
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ParallaxSprite Demo.app/grass.png
+xgrass.png
+lSLF07#2@14"Copy grass.png317507726#317507726#0(0"0(0#0#45"/Users/brian/Desktop/Files/Demo/src/grass.png8605703392#472"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brian/Desktop/Files/Demo/src/grass.png "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/grass@2x.png" grass@2x.png
+s317507726.146094
+e317507726.177055
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ParallaxSprite Demo.app/grass@2x.png
+xgrass@2x.png
+lSLF07#2@17"Copy grass@2x.png317507726#317507726#0(0"0(0#0#48"/Users/brian/Desktop/Files/Demo/src/grass@2x.png8604561472#475"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brian/Desktop/Files/Demo/src/grass@2x.png "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsback.png" mountainsback.png
+s317507726.140724
+e317507726.179140
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsback.png
+xmountainsback.png
+lSLF07#2@22"Copy mountainsback.png317507726#317507726#0(0"0(0#0#53"/Users/brian/Desktop/Files/Demo/src/mountainsback.png8607507264#480"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brian/Desktop/Files/Demo/src/mountainsback.png "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsback@2x.png" mountainsback@2x.png
+s317507726.141582
+e317507726.476311
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsback@2x.png
+xmountainsback@2x.png
+lSLF07#2@25"Copy mountainsback@2x.png317507726#317507726#0(0"0(0#0#56"/Users/brian/Desktop/Files/Demo/src/mountainsback@2x.png8607401824#483"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brian/Desktop/Files/Demo/src/mountainsback@2x.png "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsfront.png" mountainsfront.png
+s317507726.142172
+e317507726.172927
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsfront.png
+xmountainsfront.png
+lSLF07#2@23"Copy mountainsfront.png317507726#317507726#0(0"0(0#0#54"/Users/brian/Desktop/Files/Demo/src/mountainsfront.png8604074208#481"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brian/Desktop/Files/Demo/src/mountainsfront.png "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsfront@2x.png" mountainsfront@2x.png
+s317507726.142760
+e317507726.485944
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ParallaxSprite Demo.app/mountainsfront@2x.png
+xmountainsfront@2x.png
+lSLF07#2@26"Copy mountainsfront@2x.png317507726#317507726#0(0"0(0#0#57"/Users/brian/Desktop/Files/Demo/src/mountainsfront@2x.png8603195936#484"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brian/Desktop/Files/Demo/src/mountainsfront@2x.png "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/sky.png" sky.png
+s317507726.143329
+e317507726.226241
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ParallaxSprite Demo.app/sky.png
+xsky.png
+lSLF07#2@12"Copy sky.png317507726#317507726#0(0"0(0#0#43"/Users/brian/Desktop/Files/Demo/src/sky.png8599769824#470"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brian/Desktop/Files/Demo/src/sky.png "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ParallaxSprite Demo.app/sky@2x.png" sky@2x.png
+s317507726.143873
+e317507726.556325
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ParallaxSprite Demo.app/sky@2x.png
+xsky@2x.png
+lSLF07#2@15"Copy sky@2x.png317507726#317507726#0(0"0(0#0#46"/Users/brian/Desktop/Files/Demo/src/sky@2x.png8606201376#473"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/brian/Desktop/Files/Demo/src/sky@2x.png "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
+CGenerateDSYMFile "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app.dSYM" "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo"
+s317507981.576091
+e317507981.624717
+r1
+xGenerateDSYMFile
+x/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app.dSYM
+x/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo
+lSLF07#2@149"GenerateDSYMFile "build/Debug-iphonesimulator/ParallaxSprite Demo.app.dSYM" "build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo"317507981#317507981#0(0"0(0#0#107"/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo8607626912#414"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo" -o "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app.dSYM"0#
+
+CLd "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo" normal i386
+s317507981.498976
+e317507981.575992
+r1
+xLd
+x/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo
+xnormal
+xi386
+lSLF07#2@112"Link /Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo317507981#317507981#0(0"0(0#0#0"8608413152#1157"    cd /Users/brian/Desktop/Files/Demo/src    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator -F/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator -filelist "/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/Objects-normal/i386/ParallaxSprite Demo.LinkFileList" -mmacosx-version-min=10.6 -ObjC -all_load -Xlinker -objc_abi_version -Xlinker 2 /Users/brian/Documents/sparrow/sparrow/src/build/Debug-iphonesimulator/libSparrow.a -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AVFoundation -framework AudioToolbox -framework OpenAL -o "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/ParallaxSprite Demo"0#
+
+CProcessInfoPlistFile "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/Info.plist" Application-Info.plist
+s317507726.131160
+e317507726.140635
+r1
+xProcessInfoPlistFile
+x/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/Info.plist
+xApplication-Info.plist
+lSLF07#2@30"Process Application-Info.plist317507726#317507726#0(0"0(0#0#58"/Users/brian/Desktop/Files/Demo/src/Application-Info.plist7578827501794051072#502"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Application-Info.plist -genpkginfo "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app/Info.plist"0#
+
+CProcessPCH /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-dccnfbhwmodwtpdzlzwskcqqwxbw/Application_Prefix.pch.gch Application_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317507726.556521
+e317507727.610924
+r1
+xProcessPCH
+x/var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-dccnfbhwmodwtpdzlzwskcqqwxbw/Application_Prefix.pch.gch
+xApplication_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Application_Prefix.pch317507726#317507727#0(0"0(0#0#58"/Users/brian/Desktop/Files/Demo/src/Application_Prefix.pch8604151200#1628"    cd /Users/brian/Desktop/Files/Demo/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/ParallaxSprite Demo.hmap" -F/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator -I/Users/brian/Documents/sparrow/sparrow/src -I/Users/brian/Documents/sparrow/sparrow/src/Classes -I/Users/brian/Documents/sparrow/sparrow/src/UnitTests -I/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/include "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources/i386" "-I/Users/brian/Desktop/Files/Demo/src/build/ParallaxSprite Demo.build/Debug-iphonesimulator/ParallaxSprite Demo.build/DerivedSources" -c /Users/brian/Desktop/Files/Demo/src/Application_Prefix.pch -o /var/folders/xX/xXLI7PVQGgOJa4+3Yvsd1E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Application_Prefix-dccnfbhwmodwtpdzlzwskcqqwxbw/Application_Prefix.pch.gch0#
+
+CTouch "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"
+s317507981.624799
+e317507981.628843
+r1
+xTouch
+x/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app
+lSLF07#2@93"Touch /Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app317507981#317507981#0(0"0(0#0#0"8607128672#286"    cd /Users/brian/Desktop/Files/Demo/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/brian/Desktop/Files/Demo/src/build/Debug-iphonesimulator/ParallaxSprite Demo.app"0#
+
