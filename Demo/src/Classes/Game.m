@@ -19,19 +19,19 @@
 		mContents.x = 320;
 		[self addChild:mContents];
 		[mContents release];
-		BEParallaxSprite *sky = [BEParallaxSprite parallexSpriteWithTexture:[SPTexture textureWithContentsOfFile:@"sky.png"]
+		sky = [BEParallaxSprite parallexSpriteWithTexture:[SPTexture textureWithContentsOfFile:@"sky.png"]
 																	  speed:0.5
 																  direction:BE_PARALLAX_DIRECTION_LEFT];
 		[mContents addChild:sky];
-		BEParallaxSprite *mountains1 = [BEParallaxSprite parallexSpriteWithTexture:[SPTexture textureWithContentsOfFile:@"mountainsback.png"]
+		mountains1 = [BEParallaxSprite parallexSpriteWithTexture:[SPTexture textureWithContentsOfFile:@"mountainsback.png"]
 																			 speed:3
 																		 direction:BE_PARALLAX_DIRECTION_LEFT];
 		[mContents addChild:mountains1];
-		BEParallaxSprite *mountains2 = [BEParallaxSprite parallexSpriteWithTexture:[SPTexture textureWithContentsOfFile:@"mountainsfront.png"]
+		mountains2 = [BEParallaxSprite parallexSpriteWithTexture:[SPTexture textureWithContentsOfFile:@"mountainsfront.png"]
 																			 speed:5
 																		 direction:BE_PARALLAX_DIRECTION_LEFT];
 		[mContents addChild:mountains2];
-		BEParallaxSprite *grass = [BEParallaxSprite parallexSpriteWithTexture:[SPTexture textureWithContentsOfFile:@"grass.png"]
+		grass = [BEParallaxSprite parallexSpriteWithTexture:[SPTexture textureWithContentsOfFile:@"grass.png"]
 																		speed:10
 																	direction:BE_PARALLAX_DIRECTION_LEFT];
 		grass.y = 320-grass.height;
@@ -51,6 +51,24 @@
 	if (touch.phase == SPTouchPhaseBegan) {
 		if (ball.jumping == NO) {
 			[ball jump];
+		}
+	}
+	if (touch.phase == SPTouchPhaseEnded) {
+		if (touch.tapCount == 2) {
+			if (sky.running == YES && mountains1.running == YES && mountains2.running == YES && grass.running == YES) {
+				[ball stop];
+				[sky stop];
+				[mountains1 stop];
+				[mountains2 stop];
+				[grass stop];
+			}
+			else {
+				[ball start];
+				[sky start];
+				[mountains1 start];
+				[mountains2 start];
+				[grass start];
+			}
 		}
 	}
 }

@@ -11,9 +11,11 @@
 @implementation Ball
 
 @synthesize jumping;
+@synthesize running;
 
 - (id)init {
     if (self = [super init]) {
+		running = YES;
 		ballImage = [SPImage imageWithContentsOfFile:@"ball.png"];
 		ballImage.x = -ballImage.width/2;
 		ballImage.y = -ballImage.height/2;
@@ -26,6 +28,18 @@
 
 - (void)jump {
 	[self setJumping:YES];
+}
+
+- (void)start {
+	if (running != YES) {
+		running = YES;
+	}
+}
+
+- (void)stop {
+	if (running != NO) {
+		running = NO;
+	}
 }
 
 - (void)onEnterFrame:(SPEnterFrameEvent *)event {
@@ -42,8 +56,10 @@
 			self.y += 3;
 		}
 	}
-	rotation += 20;
-	self.rotation = SP_D2R(rotation);
+	if (running == YES) {
+		rotation += 20;
+		self.rotation = SP_D2R(rotation);
+	}
 }
 
 - (void)dealloc {

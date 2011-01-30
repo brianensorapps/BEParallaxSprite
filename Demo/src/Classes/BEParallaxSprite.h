@@ -1,7 +1,7 @@
 //
 //  BEParallaxSprite.h
 //
-//  Created by Brian Ensor on 1/22/11.
+//  Created by Brian Ensor on 1/29/11.
 //  Copyright 2011 Brian Ensor Apps. All rights reserved.
 //
 
@@ -18,11 +18,15 @@
 	float mSpeed;
 	int mDirection;
 	float mCurStep;
+	bool mRunning;
 }
 
+@property (nonatomic, assign) bool running;
 @property (nonatomic, assign) float speed;
 
 - (void)onEnterFrame:(SPEnterFrameEvent *)event;
+- (void)start;
+- (void)stop;
 - (id)initWithTexture:(SPTexture *)texture;
 - (id)initWithTexture:(SPTexture *)texture speed:(float)speed;
 - (id)initWithTexture:(SPTexture *)texture speed:(float)speed direction:(int)direction;

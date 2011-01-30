@@ -1,7 +1,7 @@
 //
 //  BEParallaxSprite.m
 //
-//  Created by Brian Ensor on 1/22/11.
+//  Created by Brian Ensor on 1/29/11.
 //  Copyright 2011 Brian Ensor Apps. All rights reserved.
 //
 
@@ -10,6 +10,7 @@
 @implementation BEParallaxSprite
 
 @synthesize speed = mSpeed;
+@synthesize running = mRunning;
 
 - (id)initWithTexture:(SPTexture *)texture {
 	if (self = [super init]) {
@@ -27,6 +28,7 @@
 
 - (id)initWithTexture:(SPTexture *)texture speed:(float)speed direction:(int)direction {
 	if (self = [super init]) {
+		mRunning = YES;
 		mDirection = direction;
 		if (direction < 1 || direction > 4) {
 			mDirection = BE_PARALLAX_DIRECTION_LEFT;
@@ -65,50 +67,64 @@
 	return [[[BEParallaxSprite alloc] initWithTexture:texture speed:speed direction:direction] autorelease];
 }
 
+- (void)start {
+	if (mRunning != YES) {
+		mRunning = YES;
+	}
+}
+
+- (void)stop {
+	if (mRunning != NO) {
+		mRunning = NO;
+	}
+}
+
 - (void)onEnterFrame:(SPEnterFrameEvent *)event {
-	mCurStep += mSpeed;
-    if (mCurStep < 1) return;
-    if (mDirection == BE_PARALLAX_DIRECTION_DOWN) {
-		mImage1.y += floor(mCurStep);
-		mImage2.y += floor(mCurStep);
-		if (mImage1.y >= mImage1.height) {
-			mImage1.y = mImage2.y-mImage2.height;
+	if (mRunning == YES) {
+		mCurStep += mSpeed;
+		if (mCurStep < 1) return;
+		if (mDirection == BE_PARALLAX_DIRECTION_DOWN) {
+			mImage1.y += floor(mCurStep);
+			mImage2.y += floor(mCurStep);
+			if (mImage1.y >= mImage1.height) {
+				mImage1.y = mImage2.y-mImage2.height;
+			}
+			if (mImage2.y >= mImage2.height) {
+				mImage2.y = mImage1.y-mImage1.height;
+			}
 		}
-		if (mImage2.y >= mImage2.height) {
-			mImage2.y = mImage1.y-mImage1.height;
+		if (mDirection == BE_PARALLAX_DIRECTION_UP) {
+			mImage1.y -= floor(mCurStep);
+			mImage2.y -= floor(mCurStep);
+			if (mImage1.y <= -mImage1.height) {
+				mImage1.y = mImage2.y+mImage2.height;
+			}
+			if (mImage2.y <= -mImage2.height) {
+				mImage2.y = mImage1.y+mImage1.height;
+			}
 		}
+		if (mDirection == BE_PARALLAX_DIRECTION_RIGHT) {
+			mImage1.x += floor(mCurStep);
+			mImage2.x += floor(mCurStep);
+			if (mImage1.x >= mImage1.width) {
+				mImage1.x = mImage2.x-mImage2.width;
+			}
+			if (mImage2.x >= mImage2.width) {
+				mImage2.x = mImage1.x-mImage1.width;
+			}
+		}
+		if (mDirection == BE_PARALLAX_DIRECTION_LEFT) {
+			mImage1.x -= floor(mCurStep);
+			mImage2.x -= floor(mCurStep);
+			if (mImage1.x <= -mImage1.width) {
+				mImage1.x = mImage2.x+mImage2.width;
+			}
+			if (mImage2.x <= -mImage2.width) {
+				mImage2.x = mImage1.x+mImage1.width;
+			}
+		}
+		mCurStep -= floor(mCurStep);
 	}
-	if (mDirection == BE_PARALLAX_DIRECTION_UP) {
-		mImage1.y -= floor(mCurStep);
-		mImage2.y -= floor(mCurStep);
-		if (mImage1.y <= -mImage1.height) {
-			mImage1.y = mImage2.y+mImage2.height;
-		}
-		if (mImage2.y <= -mImage2.height) {
-			mImage2.y = mImage1.y+mImage1.height;
-		}
-	}
-	if (mDirection == BE_PARALLAX_DIRECTION_RIGHT) {
-		mImage1.x += floor(mCurStep);
-		mImage2.x += floor(mCurStep);
-		if (mImage1.x >= mImage1.width) {
-			mImage1.x = mImage2.x-mImage2.width;
-		}
-		if (mImage2.x >= mImage2.width) {
-			mImage2.x = mImage1.x-mImage1.width;
-		}
-	}
-	if (mDirection == BE_PARALLAX_DIRECTION_LEFT) {
-		mImage1.x -= floor(mCurStep);
-		mImage2.x -= floor(mCurStep);
-		if (mImage1.x <= -mImage1.width) {
-			mImage1.x = mImage2.x+mImage2.width;
-		}
-		if (mImage2.x <= -mImage2.width) {
-			mImage2.x = mImage1.x+mImage1.width;
-		}
-	}
-    mCurStep -= floor(mCurStep);
 }
 
 - (void)dealloc {

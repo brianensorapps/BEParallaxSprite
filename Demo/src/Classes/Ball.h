@@ -12,10 +12,14 @@
 	SPImage *ballImage;
 	int rotation;
 	BOOL jumping;
+	BOOL running;
 }
 
 @property (nonatomic) BOOL jumping;
+@property (nonatomic) BOOL running;
 
+- (void)start;
+- (void)stop;
 - (void)jump;
 - (void)onEnterFrame:(SPEnterFrameEvent *)event;
 

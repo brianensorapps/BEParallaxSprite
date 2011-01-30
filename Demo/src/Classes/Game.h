@@ -11,6 +11,10 @@
 #import "Ball.h"
 
 @interface Game : SPStage {
+	BEParallaxSprite *sky;
+	BEParallaxSprite *mountains1;
+	BEParallaxSprite *mountains2;
+	BEParallaxSprite *grass;
 	SPSprite *mContents;
 	Ball *ball;
 }
